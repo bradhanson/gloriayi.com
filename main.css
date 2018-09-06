@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+
+color: #373737;
+
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    letter-spacing: 0.07em;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background: linear-gradient(#fff, #eee);
+    background: linear-gradient(#fff, #f4f4f4);
+    min-height: 100vh;
+
+    color: #373737;
+}
+
+p {
+    letter-spacing: 0.05em;
+    line-height: 1.7em;
+    margin-top: 1.5em;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.column {
+    display: inline-block;
+}
+
+/* for desktops */
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .about-column {
+        width: 66%;
+    }
+
+    .description-column {
+        width: 33%;
+    }
+
+    .headshot-photo {
+        max-width: 100% !important;
+        width: 100%;
+    }
+}
+
+.about-column {
+    vertical-align: top;
+    text-align: left;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.description-column {
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 50px;
+
+    font-size: 18px;
+}
+
+.description-column ul {
+    padding-left: 0;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.description-column li {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.headshot-photo {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+footer {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background: #dcd0c0;
+    background: linear-gradient(#dcd0c0, #e5dcd1);
+
+    color: #373737;
+
+    text-align: center;
+
+    clip-path: polygon(0% 40px, 100% 0, 100% 100%, 0% 100%);
+}
+
+.social-media {
+    margin-bottom: 50px;
+}
+
+.social-media li {
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.social-media li:last-child {
+    margin-right: 0;
+}
