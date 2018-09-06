@@ -285,3 +285,11 @@ footer {
 .social-media li:last-child {
     margin-right: 0;
 }
+
+.social-media a {
+    color: inherit;
+}
+
+.social-media a:hover {
+    color: #5d5d5d;
+}
